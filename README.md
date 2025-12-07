@@ -23,9 +23,3 @@ This project utilizes simple file handling techniques and a command-line interfa
 - `resolved.txt` — Stores matched and resolved entries
 - `CAMPUS123.txt` — Secure code verification file
 
-## 🚀 How to Run the Project
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
