@@ -1,25 +1,53 @@
-# LostAndFound 
-# 📚 Python Case Study Project - Lost & Found Tracker
+# 🏷️ Lost & Found Tracker (Python)
 
-This is a basic project developed in Python as part of my 1st-year BTech case study at **GITAM University**.
+A simple command-line based Lost & Found management system built using Python.  
+Created as part of my 1st-year B.Tech CSE case study at **GITAM University**.
 
-## 🛠️ Project Description
+---
 
-The **Lost & Found Tracker** is a Python-based system designed to manage lost and found items efficiently.  
-It allows users to:
+## 📌 Overview
+This program allows users to:
 
-- Report lost or found items
-- View existing lost or found entries
-- Match lost items with found items
-- Verify ownership using a secure code system
+- Report **lost** items  
+- Report **found** items  
+- View all listed items  
+- Search by keyword  
+- Match possible lost–found pairs  
+- Verify ownership using a **4-digit code**  
+- Log successfully returned items  
 
-This project utilizes simple file handling techniques and a command-line interface to perform all operations.
+All data is stored using basic file handling (`lost.txt`, `found.txt`, `resolved.txt`).
+
+---
+
+## 🛠️ How to Run
+1. Download or clone the repository  
+2. Open the folder  
+3. Run the script:
+python lost_found_mod.py
+
+
+Requires Python 3.
+
+---
 
 ## 📁 Files Included
+- `lost_found_mod.py` — main program  
+- `lost.txt` — lost item records  
+- `found.txt` — found item records  
+- `resolved.txt` — resolved/returned items  
 
-- `lost_found_mod.py` — Main Python program
-- `lost.txt` — Stores reported lost items
-- `found.txt` — Stores reported found items
-- `resolved.txt` — Stores matched and resolved entries
-- `CAMPUS123.txt` — Secure code verification file
+---
 
+## 🚀 Features
+- CLI-based interface  
+- Secure 4-digit verification system  
+- Admin override with secret code  
+- Basic matching algorithm based on name & location  
+
+---
+
+## 👤 Author
+**Mouktika Y**  
+B.Tech CSE — GITAM University  
+GitHub: [Moukthika-y](https://github.com/Moukthika-y)
